@@ -16,3 +16,7 @@ M. Daigle, J. Boschee, M. Foygel, and V. Smelyanskiy, "Temperature Stratificatio
 To cite this software, please use:
 
 M. Daigle, M. Foygel, V. Smelyanskiy, J. Boschee; LH2Sim [Computer software]. (2017). Retrieved from https://github.com/nasa/LH2Sim.
+
+## Contributions
+
+Contributions are welcome. Please submit pull requests to the `develop` branch.
