@@ -2,6 +2,11 @@ function plotLH2Data(data)
 % plotLH2Data(data)
 %	Plots results from data.
 %	'data' is a data structure returned from LH2Simulate.
+%
+% Copyright (c) 2017 United States Government as represented by
+%     the Administrator of the National Aeronautics and Space Administration.
+%     All Rights Reserved.
+%
 
 close all;
 
@@ -122,5 +127,3 @@ hold off;
 % xlabel('Time (s)');
 % ylabel('K');
 % axis tight;
-
-

@@ -1,4 +1,9 @@
 % Defines LH2 model parameters
+%
+% Copyright (c) 2017 United States Government as represented by
+%     the Administrator of the National Aeronautics and Space Administration.
+%     All Rights Reserved.
+%
 clear LH2Model;
 
 psiToPa = 6894.75729;

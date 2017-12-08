@@ -4,6 +4,11 @@ function data = LH2Simulate(tspan,name)
 %	tspan is optional argument specifying time array. If not given,
 %		or given as [], then defaults to [0:1:LH2Model.tFinal].
 %	name is an optional string argument specifying scenario name.
+%
+% Copyright (c) 2017 United States Government as represented by
+%     the Administrator of the National Aeronautics and Space Administration.
+%     All Rights Reserved.
+%
 
 % obtain model parameters structure
 try
@@ -292,7 +297,7 @@ rhovL(1) = rhovB(1);
 rhogL(1) = rhogB(1);
 
 % flow out tank bottom
-JLOut = P.JLOut; 
+JLOut = P.JLOut;
 
 % determine new vent valve state
 P.VentState = evalin('base','LH2Model.VentState;');
@@ -709,7 +714,7 @@ else
 end
 
 function mdot = gasFlow(CA,gamma,rho,P1,P2)
-% choked/nonchoked flow. 
+% choked/nonchoked flow.
 if P1<P2
 	mdot = -gasFlow(CA,gamma,rho,P2,P1);
 else

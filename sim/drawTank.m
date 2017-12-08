@@ -4,6 +4,11 @@ function drawTank(P,data,i,options)
 % data is data
 % i is index (for time) in data
 % options is a struct with options
+%
+% Copyright (c) 2017 United States Government as represented by
+%     the Administrator of the National Aeronautics and Space Administration.
+%     All Rights Reserved.
+%
 if nargin<4
 	options.colors = 'rgb';
 	options.t = 1;
@@ -224,7 +229,3 @@ if options.t
 end
 
 hold off;
-
-
-
-

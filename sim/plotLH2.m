@@ -6,6 +6,11 @@ function plotLH2(name,dataSets,gain)
 %	Each 'data' is a data structure returned from LH2Simulate that contains
 %		a field given by name.
 %	gain is an optional multiplication factor for units conversion
+%
+% Copyright (c) 2017 United States Government as represented by
+%     the Administrator of the National Aeronautics and Space Administration.
+%     All Rights Reserved.
+%
 
 % set default gain
 if nargin<3
