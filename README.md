@@ -19,7 +19,7 @@ M. Daigle, M. Foygel, V. Smelyanskiy, J. Boschee; LH2Sim [Computer software]. (2
 
 ## Contributions
 
-Contributions are welcome. Please submit pull requests to the `develop` branch. By contributing to this project, you are promising that the work contributed is your own and you the rights to contribute it.
+Contributions are welcome. Please submit pull requests to the `develop` branch. By contributing to this project, you are promising that the work contributed is your own and you have the rights to contribute it.
 
 ## Notices
 
